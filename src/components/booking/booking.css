@@ -1,0 +1,286 @@
+/* Estilo para o container do carrossel */
+.booking-container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 0;
+}
+
+/* Estilo para os slides do carrossel */
+.booking-wall {
+  position: relative;
+  text-align: center;
+}
+
+/* Estilo para as imagens nos slides */
+.booking-wall img {
+  max-width: 100%;
+  height: auto;
+  filter: blur(1.8px) brightness(1.1); /* Adicione o filtro de desfoque */
+}
+
+/* Estilo para a legenda (título e descrição) nos slides */
+.booking-wall-text {
+  position: absolute;
+  bottom: 65%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  border-radius: 4px;
+  width: 80%;
+}
+
+/* Estilo para o título nos slides */
+.booking-wall-text h3 {
+  font-family: var(--font-family);
+  color: var(--primary-color-blue);
+  font-size: 80px;
+  margin: 0;
+}
+
+/* Estilo para o título nos slides */
+.booking-wall-text h2 {
+  font-family: var(--font-family);
+  color: #000;
+  font-size: 80px;
+  margin: 0;
+}
+
+/* Estilo para o título nos slides */
+.booking-wall-text h1 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  color: black;
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+/* Estilo para a descrição nos slides */
+.booking-wall-text p {
+  font-family: var(--font-family);
+  font-size: 16px;
+  margin: 0;
+}
+
+.booking-wall-itens {
+  display: flex; /* Torna o contêiner pai um flex container */
+  justify-content: space-between; /* Distribui os elementos uniformemente */
+  align-items: center; /* Alinha os elementos verticalmente ao centro */
+  margin-top: 50px;
+}
+
+.booking-wall-itens > div {
+  width: 23%; /* Define a largura de cada div para ocupar cerca de 23% do espaço disponível */
+  text-align: center; /* Centraliza o conteúdo horizontalmente dentro de cada div */
+  padding: 20px; /* Adiciona um espaçamento interno para espaçar os elementos */
+  border-radius: 8px; /* Adiciona cantos arredondados às divs */
+}
+
+.booking-wall-itens-un {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 12px;
+  background-color: white;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out ; /* Adiciona uma transição suave */
+}
+
+.booking-wall-itens-un:hover {
+  transform: scale(1.1); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+  background-color: rgba(255, 255, 255, 1); /* Adiciona um fundo escuro às divs */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Sombreamento com cor preta e opacidade */
+}
+
+img.icon {
+  width: 80px;
+  height: 80px;
+  filter: blur(0px);
+}
+
+/* Estilo para o container do carrossel */
+.carousel-container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 0;
+  background-color: #fff;
+}
+
+/* Estilo para os slides do carrossel */
+.carousel-item {
+  position: flex;
+  text-align: center;
+  left: 37%;
+}
+
+/* Estilo para as imagens nos slides */
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+  filter: blur(0px);
+}
+
+/* Estilo para a legenda (título e descrição) nos slides */
+.carousel-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+/* Estilo para o título nos slides */
+.carousel-caption h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Estilo para a descrição nos slides */
+.carousel-caption p {
+  font-size: 16px;
+  margin: 0;
+}
+
+h2 {
+  font-family: var(--font-family);
+  color: var(--primary-color-blue);
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+h1.title-card {
+  font-family: var(--font-family);
+  font-weight: 400;
+  color:var(--primary-color-blue);
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+h1.h1-steps{
+  font-family:var(--font-family);
+  font-weight: 400;
+  font-size: large;
+  padding-top: 100px;
+}
+
+p.comentary-card{
+  font-family: var(--font-family);
+  font-size: medium;
+}
+
+button.car-button {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 80px;
+  height: 40px;
+  background-color: white;
+  border: 0px;
+  border-radius: 20px;
+  font-family: var(--font-family);
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out,
+    border-radius 0.3s ease-in-out; /* Adiciona uma transição suave */
+}
+
+button.car-button:hover {
+  background-color: var(--primary-color-blue);
+  color: #fff;
+  border: 0px;
+  border-radius: 20px;
+}
+
+/* Estilo para o botão selecionado */
+.car-button.active {
+  background-color: #0079e4; /* Cor de fundo quando selecionado */
+  color: #fff; /* Cor do texto quando selecionado */
+}
+
+.title-plan {
+  font-family: var(--font-family);
+  color: #0079e4;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.price-plan {
+  font-family: var(--font-family);
+  color: black;
+  font-size: 25px;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para a div pai */
+.itens-plan {
+  display: flex; /* Torna os itens filhos flexíveis (em linha horizontal) */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  font-family: var(--font-family);
+  font-size: medium;
+}
+
+.time-plan{
+  margin-top: 20px;
+  font-size: small;
+  font-weight: 500;
+  color: var(--primary-color-blue);
+}
+
+/* Estilo para os itens */
+.itens-plan p {
+  display: inline-block; /* Faz com que os itens fiquem em linha horizontalmente */
+  margin-right: 10px; /* Espaçamento entre os itens */
+}
+
+.plan-itens-un {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 12px;
+  transition: transform 0.3s ease-in-out,
+    background-color 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out; /* Adiciona uma transição suave para a propriedade box-shadow */
+  padding: 20px; /* Adicione algum espaço interno para melhorar o efeito de sombreamento */
+  border-radius: 10px; /* Borda arredondada para um visual mais agradável */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Sombreamento com cor preta e opacidade */
+  margin-bottom: 50px;
+  height: 400px;
+}
+
+/* Adiciona o efeito de sombreamento e movimento para baixo */
+.plan-itens-un:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(5px); /* Move o elemento 5 pixels para baixo quando o mouse passa por cima */
+}
+
+.plan-itens {
+  display: flex; /* Torna o contêiner pai um flex container */
+  justify-content: space-between; /* Distribui os elementos uniformemente */
+  align-items: center; /* Alinha os elementos verticalmente ao centro */
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.plan-itens > div {
+  width: 22%; /* Define a largura de cada div para ocupar cerca de 23% do espaço disponível */
+  text-align: center; /* Centraliza o conteúdo horizontalmente dentro de cada div */
+  padding: 20px; /* Adiciona um espaçamento interno para espaçar os elementos */
+  border-radius: 8px; /* Adiciona cantos arredondados às divs */
+}
+
+/* Estilo para o plano selecionado */
+.plan-itens-un.selected {
+  transform: scale(1.1);
+  border: 2px solid var(--primary-color-blue); /* Adicione uma borda azul de 2px */
+}
+

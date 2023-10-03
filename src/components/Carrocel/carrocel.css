@@ -1,0 +1,84 @@
+/* Estilo para o container do carrossel */
+.carousel-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 0;
+  }
+  
+  /* Estilo para os slides do carrossel */
+  .carousel-item {
+    position: relative;
+    text-align: center;
+  }
+  
+  /* Estilo para as imagens nos slides */
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilo para a legenda (título e descrição) nos slides */
+  .carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+  }
+  
+  /* Estilo para o título nos slides */
+  .carousel-caption h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Estilo para a descrição nos slides */
+  .carousel-caption p {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  /* Estilize as setas como desejado */
+.carousel-button {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  font-size: 20px;
+  position: fixed;
+  top: 50%; /* Ajuste a posição vertical como desejar */
+  transform: translateY(-50%);
+  align-items: center;
+  justify-content: center;
+  width: 50px; /* Largura do botão */
+  height: 50px; /* Altura do botão */
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: background-color 0.5s, width 0.3s, height 0.3s;
+}
+.carousel-button:hover {  
+  background-color: #0079E4;
+  color: white;
+  font-size: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+/* Estilize a seta esquerda */
+.carousel-button.left {
+  left: 20px;
+
+}
+
+/* Estilize a seta direita */
+.carousel-button.right {
+  right: 20px;
+
+}
+
+  
