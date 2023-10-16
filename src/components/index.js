@@ -5,3 +5,5 @@ export {default as Bids} from './bids/Bids';
 export {default as Footer} from './footer/Footer';
 export {default as Carousel} from './Carrocel/Carrocel';
 export {default as BookingCar} from './booking/Booking';
+export {default as Button} from './Button/Button';
+export {default as DatePicker} from './DatePicker/DatePicker';

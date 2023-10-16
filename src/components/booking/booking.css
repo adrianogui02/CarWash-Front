@@ -250,7 +250,7 @@ button.car-button:hover {
     background-color 0.3s ease-in-out,
     box-shadow 0.3s ease-in-out; /* Adiciona uma transição suave para a propriedade box-shadow */
   padding: 20px; /* Adicione algum espaço interno para melhorar o efeito de sombreamento */
-  border-radius: 10px; /* Borda arredondada para um visual mais agradável */
+  border-radius: 20px; /* Borda arredondada para um visual mais agradável */
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Sombreamento com cor preta e opacidade */
   margin-bottom: 50px;
   height: 400px;
@@ -275,7 +275,7 @@ button.car-button:hover {
   width: 22%; /* Define a largura de cada div para ocupar cerca de 23% do espaço disponível */
   text-align: center; /* Centraliza o conteúdo horizontalmente dentro de cada div */
   padding: 20px; /* Adiciona um espaçamento interno para espaçar os elementos */
-  border-radius: 8px; /* Adiciona cantos arredondados às divs */
+  border-radius: 20px; /* Adiciona cantos arredondados às divs */
 }
 
 /* Estilo para o plano selecionado */

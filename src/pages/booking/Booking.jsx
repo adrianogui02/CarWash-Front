@@ -1,5 +1,5 @@
 import React from 'react';
-import {BookingCar,Navbar } from '../../components'
+import {BookingCar,Navbar,Button,DatePicker } from '../../components'
 import './booking.css';
 
 const Book = () => {
@@ -7,6 +7,7 @@ const Book = () => {
   return <div className='carousel'>
    <Navbar/>
    <BookingCar/>
+   <DatePicker/>
   </div>;
 };
 
